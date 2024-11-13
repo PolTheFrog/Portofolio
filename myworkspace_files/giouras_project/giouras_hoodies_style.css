@@ -1,0 +1,132 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background-color: #f5f0e1 !important; /* Soft beige background */
+    color: #5a4e4d !important; /* Warm beige/brownish text color */
+    overflow-x: hidden;
+    font-size: 16px;
+  }
+  
+  /* Navigation Styles */
+  nav {
+    background: linear-gradient(90deg, #d6c59d, #c9b49e); /* Gradient to match beige tones */
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  nav .logo h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: white;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #d6a35f; /* Hover effect for links */
+  }
+  
+  /* Hero Section */
+  #hero {
+    padding: 100px 20px;
+    background-color: #f5f0e1; /* Beige background */
+    text-align: center;
+    color: #5a4e4d;
+  }
+  
+  #hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  #hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  #hero .cta-button {
+    background-color: #d6a35f; /* Soft golden beige button */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #hero .cta-button:hover {
+    background-color: #b88b46; /* Darker shade on hover */
+  }
+  
+  /* Sections Styling */
+  section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #5a4e4d;
+  }
+  
+  section p {
+    font-size: 1rem;
+    color: #5a4e4d;
+    line-height: 1.6;
+  }
+  
+  section#about {
+    background-color: #f8f4e3; /* A slightly lighter beige for the about section */
+  }
+  
+  section#portfolio {
+    background-color: #f5f0e1;
+  }
+  
+  section#contact {
+    background-color: #f8f4e3; /* Lighter beige for the contact section */
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #d6c59d;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
